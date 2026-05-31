@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javeria Jatoi | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  </head>
+  <body>
+
+    <!-- ── NAVBAR ── -->
+    <nav class="navbar">
+      <div class="nav-logo">JJ<span>.</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+
+    <!-- ── HERO ── -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="hero-greeting">Hi there, I'm</p>
+        <h1 class="hero-name">Javeria Jatoi<span class="dot">.</span></h1>
+        <h2 class="hero-title">
+          <span class="typing" id="typing"></span>
+        </h2>
+        <p class="hero-desc">
+          A passionate Frontend Developer intern building clean, responsive, and user-friendly web experiences.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-secondary">Hire Me</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Javeria05-Jatoi" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/javeria-jatoi-4a0215378" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:javeriajatoi949@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-blob"></div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section class="about" id="about">
+      <div class="section-tag">About Me</div>
+      <h2 class="section-title">Who I Am</h2>
+      <div class="about-grid">
+        <div class="about-img">
+          <div class="img-placeholder">
+            <i class="fas fa-user"></i>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>
+            I'm <strong>Javeria Jatoi</strong>, a Frontend Development Intern at
+            <strong>CodeAlpha</strong>. I love turning ideas into beautiful,
+            functional web interfaces using HTML, CSS, and JavaScript.
+          </p>
+          <p>
+            Currently focused on building real-world projects that sharpen my
+            skills and grow my portfolio. I believe in clean code, great design,
+            and continuous learning.
+          </p>
+          <div class="about-info">
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Shikarpur, Pakistan</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-briefcase"></i>
+              <span>Frontend Intern @ CodeAlpha</span>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-code"></i>
+              <span>Open to Opportunities</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section class="skills" id="skills">
+      <div class="section-tag">Skills</div>
+      <h2 class="section-title">What I Work With</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <i class="fab fa-html5"></i>
+          <span>HTML5</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-css3-alt"></i>
+          <span>CSS3</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-git-alt"></i>
+          <span>Git</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-mobile-alt"></i>
+          <span>Responsive Design</span>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-paint-brush"></i>
+          <span>UI/UX Basics</span>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-terminal"></i>
+          <span>VS Code</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section class="projects" id="projects">
+      <div class="section-tag">Projects</div>
+      <h2 class="section-title">What I've Built</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-calculator"></i></div>
+          <h3>Calculator App</h3>
+          <p>A modern calculator with live preview, keyboard support, and smooth animations. Built with vanilla HTML, CSS & JS.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Javeria05-Jatoi/CodeAlpha_Calculator" target="_blank">
+              <i class="fab fa-github"></i> Code
+            </a>
+            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+
+        <div class="project-card featured">
+          <div class="project-badge">In Progress</div>
+          <div class="project-icon"><i class="fas fa-images"></i></div>
+          <h3>Image Gallery</h3>
+          <p>A responsive image gallery with lightbox view, category filters, hover effects and smooth transitions.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Javeria05-Jatoi" target="_blank">
+              <i class="fab fa-github"></i> Code
+            </a>
+            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── EDUCATION ── -->
+    <section class="education" id="education">
+      <div class="section-tag">Education</div>
+      <h2 class="section-title">My Background</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2026</span>
+            <h3>Frontend Development Internship</h3>
+            <p>CodeAlpha · Student ID: CA/DF1/106805</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Present</span>
+            <h3>Bachelor's in Computer Science</h3>
+            <p>The Shaikh Ayaz University, Shikarpur</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section class="contact" id="contact">
+      <div class="section-tag">Contact</div>
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="contact-sub">Have an opportunity or just want to say hi? My inbox is open!</p>
+      <div class="contact-cards">
+        <a href="mailto:javeriajatoi949@gmail.com" class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <span>javeriajatoi949@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/javeria-jatoi-4a0215378" target="_blank" class="contact-card">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://github.com/Javeria05-Jatoi" target="_blank" class="contact-card">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer class="footer">
+      <p>Designed & Built by <strong>Javeria Jatoi</strong> ✦ CodeAlpha Internship 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
